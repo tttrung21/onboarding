@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8779F1912CD47BCB0018A0B3 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779F1902CD47BCB0018A0B3 /* ItemModel.swift */; };
+		8779F1932CD48A180018A0B3 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779F1922CD48A180018A0B3 /* OnboardingViewController.swift */; };
 		87AC90E12CCA08130018FBD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AC90E02CCA08130018FBD9 /* AppDelegate.swift */; };
 		87AC90E32CCA08130018FBD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AC90E22CCA08130018FBD9 /* SceneDelegate.swift */; };
-		87AC90E52CCA08130018FBD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AC90E42CCA08130018FBD9 /* ViewController.swift */; };
 		87AC90E82CCA08130018FBD9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 87AC90E72CCA08130018FBD9 /* Base */; };
 		87AC90EA2CCA08150018FBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AC90E92CCA08150018FBD9 /* Assets.xcassets */; };
 		87AC90ED2CCA08150018FBD9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 87AC90EC2CCA08150018FBD9 /* Base */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8779F1902CD47BCB0018A0B3 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		8779F1922CD48A180018A0B3 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		87AC90DD2CCA08130018FBD9 /* onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87AC90E02CCA08130018FBD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87AC90E22CCA08130018FBD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		87AC90E42CCA08130018FBD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		87AC90E72CCA08130018FBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87AC90E92CCA08150018FBD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87AC90EC2CCA08150018FBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8779F18F2CD47BBC0018A0B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8779F1902CD47BCB0018A0B3 /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		87AC90D42CCA08130018FBD9 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +109,14 @@
 		87AC90DF2CCA08130018FBD9 /* onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				8779F18F2CD47BBC0018A0B3 /* Model */,
 				87AC90E02CCA08130018FBD9 /* AppDelegate.swift */,
 				87AC90E22CCA08130018FBD9 /* SceneDelegate.swift */,
-				87AC90E42CCA08130018FBD9 /* ViewController.swift */,
 				87AC90E62CCA08130018FBD9 /* Main.storyboard */,
 				87AC90E92CCA08150018FBD9 /* Assets.xcassets */,
 				87AC90EB2CCA08150018FBD9 /* LaunchScreen.storyboard */,
 				87AC90EE2CCA08150018FBD9 /* Info.plist */,
+				8779F1922CD48A180018A0B3 /* OnboardingViewController.swift */,
 			);
 			path = onboarding;
 			sourceTree = "<group>";
@@ -258,8 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87AC90E52CCA08130018FBD9 /* ViewController.swift in Sources */,
 				87AC90E12CCA08130018FBD9 /* AppDelegate.swift in Sources */,
+				8779F1932CD48A180018A0B3 /* OnboardingViewController.swift in Sources */,
+				8779F1912CD47BCB0018A0B3 /* ItemModel.swift in Sources */,
 				87AC90E32CCA08130018FBD9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
